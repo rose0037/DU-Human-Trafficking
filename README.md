@@ -7,28 +7,33 @@ The primary purpose of the directionality dataset is to track the movement acros
   - Below link is the map that envision it to look similar to: 
    http://www.digitalattackmap.com/#anim=1&color=0&country=ALL&list=1&time=17629&view=map
  
+# Information about uploaded notebooks and excel sheets.
+  - Data_Cleaning.ipynb is the python notebook containing the code for cleaning Directionality Coding 2008-2016.xlsx and         creating source and destinations latitidues and longitudes columns.
+  - Human_Traffic_data.csv is the excel sheet created after cleaning the data(created in Data_Cleaning.ipynb notebook)
+  - Human Trafficking Bokeh.ipynb is the main file containg the graphs and interactive widgets.Data used from                   Human_Traffic_data.csv file
+ 
  # Table for tentative milestones:
 
 <table>
 <tr>
-  <th>Weeks</th><th>Milestones</th><th>Status</th><th>By</th>
+  <th>Weeks</th><th>Milestones</th><th>Status</th>
 </tr>
 <tr>
-  <td>2nd week</td><td>Loading and cleaning of data</td><td></td><td> </td>
+  <td>2nd week</td><td>Loading and cleaning of data</td><td>Completed</td>
 </tr>
 <tr>
-<td>3rd week</td><td>Graph plots</td><td></td><td> </td>
+<td>3rd week</td><td>Graph plots using source and destination nodes</td><td>Completed</td>
 </tr>
 <tr>
-<td>4th week</td><td>Interactive geo graphs</td><td></td><td> </td>
+<td>4th week</td><td>Adding Years drop down</td><td>Completed. Trying to make the dropdown as a slider</td>
 </tr>
 <tr>
-<td>5th week</td><td></td><td></td><td> </td>
+<td>5th week</td><td>Adding interactive parameters</td><td>Added the interative parameter.Resolving some data issues</td>
 </tr>
 <tr>
-<td>6th week</td><td></td><td></td><td> </td>
+<td>6th week</td><td>Adding tier Information</td><td>Completed</td>
 </tr>
 <tr>
-<td>7th week</td><td></td><td></td><td> </td>
+<td>7th week</td><td>Merging all information</td><td> Trying to create the dashboard</td>
 </tr>
 </table>
