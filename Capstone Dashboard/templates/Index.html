@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 15%;
+  background-color: ##e5e9ff
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #e5e9ff;
+}
+.main {
+  float: left;
+  width: 80%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+/*.right {
+  background-color: #97a6fc;
+  float: right;
+  width: 20%;
+  padding: 10px 20px;
+
+}*/
+
+</style>
+</head>
+<body style="font-family:Verdana;">
+
+<div style="background-color:#778fb7;padding:10px;">
+    <h1><center><font color = #ffffff>Human Trafficking Data Visualization</font></center></h1>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <div class="menuitem">Tier Info</div>
+    <div class="menuitem">Type of Trafficking</div>
+    <div class="menuitem">Info1</div>
+  </div>
+
+  <div class="main">
+    <h2>Human Trafficking Graph from source to destination</h2>
+    <p></p>
+    {{bokeh_script|safe}}
+  </div>
+
+  <!-- <div class="right">
+      <h2><font color = #ffffff>Type of Trafficking</font></h2>
+    <p>write what are the types of trafficking here</p>
+      <h2><font color = #ffffff>dfrgre</font></h2>
+    <p>A person who has been forced to leave their country in order to escape war, persecution, or natural disaster.</p>
+  </div> -->
+</div>
+
+
+<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> This is a capstone project.</div>
+
+</body>
+</html>
