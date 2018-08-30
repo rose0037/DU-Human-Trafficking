@@ -25,15 +25,15 @@ The primary purpose of the directionality dataset is to track the movement acros
 <td>3rd week</td><td>Graph plots using source and destination nodes</td><td>Completed</td>
 </tr>
 <tr>
-<td>4th week</td><td>Adding Years drop down</td><td>Completed. Trying to make the dropdown as a slider</td>
+<td>4th week</td><td>Adding Years drop down</td><td>Completed</td>
 </tr>
 <tr>
-<td>5th week</td><td>Adding interactive parameters</td><td>Added the interative parameter.Resolving some data issues</td>
+<td>5th week</td><td>Adding interactive parameters</td><td>Completed/td>
 </tr>
 <tr>
 <td>6th week</td><td>Adding tier Information</td><td>Completed</td>
 </tr>
 <tr>
-<td>7th week</td><td>Merging all information</td><td> Trying to create the dashboard</td>
+<td>7th week</td><td>Merging all information</td><td> Completed</td>
 </tr>
 </table>
