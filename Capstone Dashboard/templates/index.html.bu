@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>This is the title</title>
+		<link rel="stylesheet" href={{url_for("static",filename='css/main.css')}} />
+		<link rel="stylesheet" href={{cdn_css|safe}} type="text/css"/>
+		<script type="text/javascript" src={{cdn_js|safe}}> </script>
+	</head>
+	<body>
+		<h1> Heading 1 </h1>
+		<h2> Heading 2 </h2>
+		<p> This is a paragraph </p>
+		<p> This is another paragraph </p>
+
+		<!-- {{current_date|safe}} -->
+		{{js|safe}}
+		{{div|safe}}
+
+		<p> This is short paragraph </p>
+
+	</body>
+</html>
