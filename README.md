@@ -7,7 +7,7 @@ The primary purpose of the directionality dataset is to track the movement acros
   - Below link is the map that envision it to look similar to: 
    http://www.digitalattackmap.com/#anim=1&color=0&country=ALL&list=1&time=17629&view=map
    
-  ![alt text](https://github.com/rose0037/DU-Human-Trafficking/blob/master/unnamed.jpg)
+  ![alt text](https://github.com/rose0037/DU-Human-Trafficking/blob/master/new_pic.PNG)
 
  
 # Information about uploaded notebooks and excel sheets.
