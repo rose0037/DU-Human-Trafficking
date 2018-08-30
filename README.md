@@ -6,6 +6,9 @@ The primary purpose of the directionality dataset is to track the movement acros
   - Interactive Data Visualization Graph
   - Below link is the map that envision it to look similar to: 
    http://www.digitalattackmap.com/#anim=1&color=0&country=ALL&list=1&time=17629&view=map
+   
+  ![alt text](https://github.com/rose0037/DU-Human-Trafficking/blob/master/unnamed.jpg)
+
  
 # Information about uploaded notebooks and excel sheets.
   - Data_Cleaning.ipynb is the python notebook containing the code for cleaning Directionality Coding 2008-2016.xlsx and         creating source and destinations latitidues and longitudes columns.
