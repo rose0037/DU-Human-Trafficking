@@ -1,0 +1,17 @@
+Assuem "theVis.py" is the file that create the interactive bokeh visualiztion, and "server1.py" is
+the flask application that is used to embed the visualiztion into a web page.
+
+To get this to work you need to run BOTH the bokeh server AND the flask python file, so conceptually:
+
+1) bokeh serve dynamicFigure.py &
+2) python app.py &
+
+But - they have different port numbers and the flask application needs to access the running app on localhost port 5006.   The bokeh server app (theVis) is run on port 5006, and the flask app is run 
+on port 5000.  So, we need to tell the bokeh server to allow it to be embedded in another server.  
+
+So, in two different terminal/command windows, we need to run the following (one in each window, running(1) before running (2):
+
+1) bokeh serve --allow-websocket-origin=localhost:5000 dynamicFigure.py 
+2) python app.py 
+
+
