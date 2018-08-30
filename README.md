@@ -28,6 +28,10 @@ The main objective of this Project are
 - Final graph looks something like this
 
   ![alt text](https://github.com/rose0037/DU-Human-Trafficking/blob/master/new_pic.PNG)
+  
+  And the statistic looks something like this: 
+  
+   ![alt text](https://github.com/rose0037/DU-Human-Trafficking/blob/master/Images/stat1.PNG)
  
 # Information about uploaded notebooks and excel sheets.
   - Data_Cleaning.ipynb is the python notebook containing the code for cleaning Directionality Coding 2008-2016.xlsx and         creating source and destinations latitidues and longitudes columns.
